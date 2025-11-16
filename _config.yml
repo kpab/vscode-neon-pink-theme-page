@@ -1,0 +1,36 @@
+# GitHub Pages SEO Configuration for Neon Pink Dark Theme
+title: Neon Pink Dark - Cyberpunk VS Code Theme
+description: A cyberpunk-inspired dark theme with neon pink accents for Visual Studio Code. Transform your editor into a futuristic environment with pure black backgrounds and vibrant neon pink highlights.
+url: https://kpab.github.io
+baseurl: /vscode-neon-pink-theme-page
+
+# Author information
+author:
+  name: kpab
+  url: https://github.com/kpab
+
+# SEO settings
+lang: en_US
+twitter:
+  card: summary_large_image
+  username: kpab
+
+# Social profiles
+social:
+  links:
+    - https://github.com/kpab
+    - https://github.com/kpab/vscode-neon-pink-theme
+    - https://marketplace.visualstudio.com/items?itemName=kpab.neon-pink-dark
+
+# Plugins for SEO
+plugins:
+  - jekyll-sitemap  # サイトマップ自動生成
+  - jekyll-seo-tag  # SEOタグ自動生成
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - .git
+  - LICENSE
+  - CNAME

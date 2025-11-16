@@ -43,10 +43,14 @@ vscode-neon-pink-theme-page/
 │       ├── icon.svg           # Theme icon (SVG)
 │       ├── icon.png           # Theme icon (PNG)
 │       └── favicon.svg        # Favicon
-├── index.html                 # Main landing page
+├── _config.yml                # Jekyll configuration for SEO
+├── index.html                 # Main landing page with SEO tags
 ├── manifest.json              # PWA manifest
 ├── robots.txt                 # SEO robots file
 ├── sitemap.xml                # Sitemap for search engines
+├── SEO_SETUP.md               # SEO setup guide
+├── LICENSE                    # MIT License
+├── README.md                  # This file
 └── .nojekyll                  # GitHub Pages configuration
 ```
 
@@ -110,14 +114,26 @@ Changes will be live within a few minutes.
 
 The landing page includes comprehensive SEO optimization:
 
-- ✅ Meta tags (description, keywords, author)
-- ✅ Open Graph tags for social media
-- ✅ Twitter Card tags
-- ✅ Structured data (JSON-LD) - coming soon
-- ✅ Sitemap.xml
-- ✅ Robots.txt
-- ✅ Semantic HTML5 markup
-- ✅ Optimized performance metrics
+- ✅ **Meta tags** - Description, keywords, author
+- ✅ **Open Graph tags** - Social media optimization
+- ✅ **Twitter Card tags** - Twitter sharing optimization
+- ✅ **Structured data (JSON-LD)** - Google Rich Results support
+- ✅ **Canonical URL** - Prevent duplicate content issues
+- ✅ **hreflang tags** - Multi-language support (en/ja)
+- ✅ **Sitemap.xml** - Search engine crawling
+- ✅ **Robots.txt** - Crawler instructions
+- ✅ **Jekyll SEO plugins** - Automated SEO optimization
+- ✅ **Semantic HTML5** - Improved accessibility and SEO
+
+### Google Search Console Setup
+
+For complete SEO setup including Google Search Console registration, see [SEO_SETUP.md](SEO_SETUP.md).
+
+**Quick steps:**
+1. Register on [Google Search Console](https://search.google.com/search-console)
+2. Verify ownership (HTML file or meta tag)
+3. Submit sitemap: `sitemap.xml`
+4. Test structured data: [Rich Results Test](https://search.google.com/test/rich-results)
 
 ## 🎯 Performance
 
