@@ -1,0 +1,22 @@
+{
+  "name": "Neon Pink Dark Theme",
+  "short_name": "Neon Pink",
+  "description": "A cyberpunk-inspired dark theme for Visual Studio Code",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FF2DBE",
+  "icons": [
+    {
+      "src": "assets/images/icon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
